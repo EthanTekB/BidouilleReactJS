@@ -1,0 +1,29 @@
+features du mini blog:
+- Le blog tiendra sur une grande page.
+
+- descriptif du profil (Biographie, résumé, photo?)
+
+- CV perso (afficher le pdf sur la page ? ou un lien qui ouvre le pdff dans un nouvel onglet ?)
+
+- infos perso (age, diplomes, activités, infos de contact)
+
+- liens avec logo approprié pour redirigé  sur mes pages RS (Linkedin, FB, Insta).
+
+- Un header de blog ?
+
+Comment procéder ?
+
+diviser les features en plusieurs component...? 
+un component par features (4? a voir si je need de faire plus de compo.)
+
+To Do Order:
+
+1. Le Header
+
+2. Le déscriptif
+
+3. les infos perso
+
+4. Le CV
+
+5. Les liens 
