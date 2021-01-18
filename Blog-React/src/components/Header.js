@@ -1,15 +1,21 @@
 import React from 'react';
+import logo from '../img/epitech-logo-blanc.png';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header">
             <nav>
+                <img className="logo" src={logo} />
+                <br/>
+                <div className="name">
+                   Ethan's Mini Blog
+                </div>
                 <ul>
                     <li>
-                        <a href="#">Déscription</a>
+                        <a href="#">Bio</a>
                     </li>
                     <li>
-                        <a href="#">Résumé Perso</a>
+                        <a href="#">Infos</a>
                     </li>
                     <li>
                         <a href="#">CV</a>
@@ -20,7 +26,6 @@ const Header = () => {
                 </ul>
             </nav>
         </div>
-        
     );
 }
 

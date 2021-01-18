@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import Header from './components/Header'
-import Description from './components/Description'
-import AboutMe from './components/AboutMe'
-import MyCv from './components/MyCv'
-import Links from './components/Links'
+import Header from './components/Header';
+import Description from './components/Description';
+import AboutMe from './components/AboutMe';
+import MyCv from './components/MyCv';
+import Links from './components/Links';
+import './css/PageStyle.css';
 
 
 function App() {
   return (
       <div className="body">
-      <Header />
+      <Header/>
       <Description/>
       <AboutMe/>
       <MyCv/>

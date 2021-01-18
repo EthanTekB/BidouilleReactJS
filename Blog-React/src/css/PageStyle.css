@@ -1,0 +1,196 @@
+body {
+  background: url("../img/blog_lede.d2ed38cb.png") no-repeat center fixed;
+  background-size: cover;
+}
+
+.header {
+  width: 40%;
+  height: 60px;
+  float: right;
+  line-height: 60px;
+}
+
+.logo {
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  left: 50px;
+  float: left;
+  background: no-repeat center;
+  background-size: contain;
+  object-fit: contain;
+}
+
+.name {
+  position: absolute;
+  float: left;
+  top: 40px;
+  margin-top: 16px;
+  margin-left: 0px;
+  left: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.biographie {
+  position: absolute;
+  top: 100px;
+}
+
+.Title {
+  margin-top: 100px;
+  position: relative;
+}
+
+.BioContent {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 42%;
+  margin-right: auto;
+  border: 3px solid white;
+  background-color: rgb(138, 138, 138, 0.4);
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.Infos {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 700px;
+  margin-right: auto;
+  border: 3px solid white;
+  background-color: rgb(138, 138, 138, 0.4);
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.rows {
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+}
+
+.LeftRow {
+  float: left;
+  margin-left: 20px;
+}
+
+.RightRow {
+  float: right;
+  margin-right: 20px;
+}
+
+.BioText {
+  font-size: 22px;
+  color: white;
+}
+
+.PersonalInfos {
+  position: absolute;
+  margin-top: 900px;
+  width: 100%;
+  /* margin-left: 30px; */
+}
+
+.InfosContent {
+  color: white;
+  font-size: 19px;
+}
+
+.CV {
+  position: absolute;
+  margin-top: 1730px;
+  width: 100%;
+  /* margin-left: 30px; */
+}
+
+.CVcontent {
+  /* position: absolute; */
+  background: url("../img/MyCv.png") no-repeat center;
+  background-size: cover;
+  height: 1050px;
+  width: 744px;
+  margin-top: 80px;
+  margin-left: 30%;
+}
+
+.Links {
+  position: absolute;
+  margin-top: 3100px;
+  width: 80%;
+  height: 500px;
+  float: right;
+  /* margin-left: 30px; */
+}
+
+.Link-List {
+  margin-left: 50%;
+  margin-top: 100px;
+}
+
+i {
+  height: 300px;
+  width: 220px;
+  font-size: 100px;
+}
+
+.FB {
+  color: rgb(49, 49, 219);
+}
+
+.FB a {
+  color: white;
+  font-size: 25px;
+}
+
+.Insta {
+  color: rgb(153, 19, 153);
+}
+
+.Insta a {
+  color: white;
+  font-size: 30px;
+}
+
+.Linkd {
+  color: rgb(0, 123, 194);
+}
+
+.Linkd a {
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 20%;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+ul a:hover {
+  color: rgb(236, 15, 15);
+}
