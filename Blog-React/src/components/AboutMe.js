@@ -1,19 +1,20 @@
 import React from 'react';
 
-const AboutMe = () => {
-    return (
-        <div className="PersonalInfos">
-            <div className="InfosTitle">
-                <h1>Informations Perso:</h1>
-            </div>
-            <div className="Infos">
-                <h2> Infos: </h2>
-                <br /><br />
-                <div className="rows">
-                    <div className="LeftRow">
-                        <a className="InfosContent">
-                            Age:
-                            <br /> <br/>
+export default class AboutMe extends React.Component {
+    render() {
+        return (
+            <div className="PersonalInfos">
+                <div className="InfosTitle">
+                    <h1>Informations Perso:</h1>
+                </div>
+                <div className="Infos">
+                    <h2> Infos: </h2>
+                    <br /><br />
+                    <div className="rows">
+                        <div className="LeftRow">
+                            <a className="InfosContent">
+                                Age:
+                            <br /> <br />
                             Date de naissance:
                             <br /> <br />
                             Promotion Epitech:
@@ -22,7 +23,7 @@ const AboutMe = () => {
                             <br /> <br />
                             Baccalauréat:
                             <br /> <br />
-                            Taille: 
+                            Taille:
                             <br /> <br />
                             Ville:
                             <br /> <br />
@@ -34,11 +35,11 @@ const AboutMe = () => {
                             <br /> <br />
                             Passion:
                         </a>
-                    </div>
-                    <div className="RightRow">
-                        <a className="InfosContent">
-                            23 ans
-                            <br /> <br/>
+                        </div>
+                        <div className="RightRow">
+                            <a className="InfosContent">
+                                23 ans
+                            <br /> <br />
                             25/07/1997
                             <br /> <br />
                             2023
@@ -59,11 +60,10 @@ const AboutMe = () => {
                             <br /> <br />
                             BasketBall, Informatique
                         </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
-
-export default AboutMe;

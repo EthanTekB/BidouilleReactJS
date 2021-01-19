@@ -1,7 +1,17 @@
+/************************** General element in Blog ********************************/
 body {
   background: url("../img/blog_lede.d2ed38cb.png") no-repeat center fixed;
   background-size: cover;
 }
+
+h1 {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  width: 20%;
+}
+
+/********************  Header section of page ************************************/
 
 .header {
   width: 40%;
@@ -44,6 +54,11 @@ ul a {
   text-decoration: none;
 }
 
+ul a:hover {
+  color: rgb(236, 15, 15);
+}
+
+/************************ Self Description content of my page ***********************************/
 .biographie {
   position: absolute;
   top: 100px;
@@ -67,6 +82,13 @@ ul a {
   overflow: hidden;
   overflow-y: auto;
 }
+
+.BioText {
+  font-size: 22px;
+  color: white;
+}
+
+/********************** Additional infos section ****************************/
 
 .Infos {
   position: relative;
@@ -98,11 +120,6 @@ ul a {
   margin-right: 20px;
 }
 
-.BioText {
-  font-size: 22px;
-  color: white;
-}
-
 .PersonalInfos {
   position: absolute;
   margin-top: 900px;
@@ -114,6 +131,13 @@ ul a {
   color: white;
   font-size: 19px;
 }
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+/******************************* My resume tout pourris  **********************/
 
 .CV {
   position: absolute;
@@ -131,6 +155,8 @@ ul a {
   margin-top: 80px;
   margin-left: 30%;
 }
+
+/********************** Social Network Links *************************/
 
 .Links {
   position: absolute;
@@ -177,20 +203,4 @@ i {
 .Linkd a {
   color: white;
   font-size: 30px;
-}
-
-h1 {
-  color: white;
-  font-weight: bold;
-  text-decoration: underline;
-  width: 20%;
-}
-
-h2 {
-  color: white;
-  font-weight: bold;
-}
-
-ul a:hover {
-  color: rgb(236, 15, 15);
 }

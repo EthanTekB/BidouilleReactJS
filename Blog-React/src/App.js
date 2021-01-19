@@ -7,16 +7,16 @@ import Links from './components/Links';
 import './css/PageStyle.css';
 
 
-function App() {
-  return (
+export default class App extends React.Component {
+  render() {
+    return (
       <div className="body">
-      <Header/>
-      <Description/>
-      <AboutMe/>
-      <MyCv/>
-      <Links/>  
+        <Header />
+        <Description />
+        <AboutMe />
+        <MyCv />
+        <Links />
       </div>
-  );
+    );
+  }
 }
-
-export default App;

@@ -1,13 +1,13 @@
 import React from 'react';
 
-const MyCv = () => {
-    return (
-        <div className="CV">
-            <h1>Mon CV:</h1>
-            <div className="CVcontent">
+export default class MyCv extends React.Component {
+    render() {
+        return (
+            <div className="CV">
+                <h1>Mon CV:</h1>
+                <div className="CVcontent">
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
-
-export default MyCv;
