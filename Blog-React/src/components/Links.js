@@ -6,10 +6,6 @@ export default class Links extends React.Component {
             <div className="Links">
                 <h1>Réseaux Sociaux:</h1>
                 <div className="Link-List">
-                    <div className="FB">
-                        <i className="fab fa-facebook-square"></i>
-                        <a href="https://fr-fr.facebook.com/ethan.mj.bendavid">facebook.com/ethan.mj.bendavid</a>
-                    </div>
                     <div className="Insta">
                         <i className="fab fa-instagram"></i>
                         <a href="https://www.instagram.com/ethanmjb97"> instagram.com/ethanmjb97</a>
